@@ -53,15 +53,15 @@ int main()
 			cout << "Erraten Sie Ihre Zahl, um zwischen 1 und 10 zu wetten : ";
 			cin >> guess;
 			if (guess <= 0 || guess > 10)
-				cout << "\nBitte ¸berpruefen Sie die Nummer!! Sie sollte zwischen 1 und 10 liegen\n"
+				cout << "\nBitte √ºberpruefen Sie die Nummer!! Sie sollte zwischen 1 und 10 liegen\n"
 				<< "\nDaten bitte neu eingeben\n ";
 		} while (guess <= 0 || guess > 10);
 
-		dice = rand() % 10 + 1; // Enth‰lt die zuf‰llig generierte Ganzzahl zwischen 1 und 10
+		dice = rand() % 10 + 1; // Enth√§lt die zuf√§llig generierte Ganzzahl zwischen 1 und 10
 
 		if (dice == guess)
 		{
-			cout << "\n\nViel Glueck!! Du hast Gewonnen : $c " << bettingAmount * 10;
+			cout << "\n\nViel Glueck!! Du hast Gewonnen : $ " << bettingAmount * 10;
 			amount = amount + bettingAmount * 10;
 		}
 		else
