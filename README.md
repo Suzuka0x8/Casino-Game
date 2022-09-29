@@ -1,7 +1,7 @@
-# Casino-Game
+# About
 Casino Game made in C++ Console App.
 
-Simple Casino Game made out of boredom
+Just a simple Casino-Game i coded out of boredom
 
 ## **Disclaimer:**
 
